@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>
+    <property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+    <property name="hibernate.connection.url">jdbc:oracle:thin:@192.151.112.178:1521:desarrollo16</property>
+    <property name="hibernate.connection.username">ctrlveh5w</property>
+    <property name="hibernate.connection.password">ctrlveh5w</property>
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.format_sql">true</property>
+    <property name="hibernate.use_sql_comments">true</property>
+    <property name="hibernate.current_session_context_class">thread</property>
+    <property name="hibernate.query.factory_class">org.hibernate.hql.internal.classic.ClassicQueryTranslatorFactory</property>
+    <property name="hibernate.default_schema">ctrlveh5w</property>
+    <!--
+    <mapping class="reversedb.modelo2.TecCilindrosvehi"/>
+    <mapping class="reversedb.modelo2.RgcAsentamiento"/>
+    <mapping class="reversedb.modelo2.TepContribuyente"/>
+    <mapping class="reversedb.modelo2.RgcEntidad"/>
+    <mapping class="reversedb.modelo2.TetControlTramite"/>
+    <mapping class="reversedb.modelo2.CvcCombustibleRepuve"/>
+    <mapping class="reversedb.modelo2.RgcTipoasenta"/>
+    <mapping class="reversedb.modelo2.SgpOficina"/>
+    <mapping class="reversedb.modelo2.RgcMunicipio"/>
+    <mapping class="reversedb.modelo2.TecEstatusVehi"/>
+    <mapping class="reversedb.modelo2.RgcPais"/>
+    <mapping class="reversedb.modelo2.CvcUsoVehiRepuve"/>
+    <mapping class="reversedb.modelo2.TepVehiculo"/>
+    <mapping class="reversedb.modelo2.TetImagenes"/>
+    <mapping class="reversedb.modelo2.CvcMotivobajas"/>
+    <mapping class="reversedb.modelo2.RgcSitcont"/>
+    <mapping class="reversedb.modelo2.SgpUsuarios"/>
+    <mapping class="reversedb.modelo2.RgcTipodom"/>
+    <mapping class="reversedb.modelo2.SgcTiposusuario"/>
+    <mapping class="reversedb.modelo2.RgcAsentamientoId"/>
+    <mapping class="reversedb.modelo2.CvcTipoVehiRepuveId"/>
+    <mapping class="reversedb.modelo2.TecPasajerosvehi"/>
+    <mapping class="reversedb.modelo2.CvcPaisorigen"/>
+    <mapping class="reversedb.modelo2.SgcAdscripcion"/>
+    <mapping class="reversedb.modelo2.TecTipocont"/>
+    <mapping class="reversedb.modelo2.TecOpcrequisito"/>
+    <mapping class="reversedb.modelo2.CvcClaseVehiRepuve"/>
+    <mapping class="reversedb.modelo2.RgcCp"/>
+    <mapping class="reversedb.modelo2.TecVincesvi"/>
+    <mapping class="reversedb.modelo2.TecTipoconclusion"/>
+    <mapping class="reversedb.modelo2.TepDomicilio"/>
+    <mapping class="reversedb.modelo2.IcPeriodos"/>
+    <mapping class="reversedb.modelo2.RgcSitdom"/>
+    <mapping class="reversedb.modelo2.ItServiciosId"/>
+    <mapping class="reversedb.modelo2.RgcCpId"/>
+    <mapping class="reversedb.modelo2.CvcTipoVehiRepuve"/>
+    <mapping class="reversedb.modelo2.CvcRequisitos"/>
+    <mapping class="reversedb.modelo2.CvcTransmisionRepuve"/>
+    <mapping class="reversedb.modelo2.TecEstadoimagenes"/>
+    <mapping class="reversedb.modelo2.RgcMunicipioId"/>
+    <mapping class="reversedb.modelo2.SgcTipousuariotramites"/>
+    <mapping class="reversedb.modelo2.CvcTipoplacaweb"/>
+    <mapping class="reversedb.modelo2.CvcColorvehi"/>
+    <mapping class="reversedb.modelo2.TecStatusCodigoseg"/>
+    <mapping class="reversedb.modelo2.TecEstatustramite"/>
+    <mapping class="reversedb.modelo2.ItServicios"/>
+    <mapping class="reversedb.modelo2.TetPrerequisitos"/>
+    
+    <mapping class="reversedb.simple.CvcColorvehiSimple"/>
+    <mapping class="reversedb.simple.TecEstadoimagenesSimple"/>
+    <mapping class="reversedb.simple.TecEstatustramiteSimple"/>
+-->
+  </session-factory>
+</hibernate-configuration>

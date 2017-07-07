@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-schema="SIR7_ING"/>
+  <table-filter match-name="TEC_PASAJEROSVEHI"/>
+  <table-filter match-name="TEC_ESTADOIMAGENES"/>
+  <table-filter match-name="SGP_USUARIOS"/>
+  <table-filter match-name="TET_CONTROL_TRAMITE"/>
+  <table-filter match-name="CVC_USO_VEHI_REPUVE"/>
+  <table-filter match-name="CVC_TIPO_VEHI_REPUVE"/>
+  <table-filter match-name="CVC_COLORVEHI"/>
+  <table-filter match-name="RGC_SITCONT"/>
+  <table-filter match-name="RGC_ENTIDAD"/>
+  <table-filter match-name="SGP_OFICINA"/>
+  <table-filter match-name="TEP_CONTRIBUYENTE"/>
+  <table-filter match-name="CVC_MOTIVOBAJAS"/>
+  <table-filter match-name="TET_IMAGENES"/>
+  <table-filter match-name="TEC_VINCESVI"/>
+  <table-filter match-name="TEC_TIPOCONT"/>
+  <table-filter match-name="RGC_SITDOM"/>
+  <table-filter match-name="CVC_REQUISITOS"/>
+  <table-filter match-name="CVC_TRANSMISION_REPUVE"/>
+  <table-filter match-name="CVC_TIPOPLACAWEB"/>
+  <table-filter match-name="TEC_TIPOCONCLUSION"/>
+  <table-filter match-name="CVC_CLASE_VEHI_REPUVE"/>
+  <table-filter match-name="CVC_PAISORIGEN"/>
+  <table-filter match-name="TEC_CILINDROSVEHI"/>
+  <table-filter match-name="RGC_CP"/>
+  <table-filter match-name="CVC_COMBUSTIBLE_REPUVE"/>
+  <table-filter match-name="RGC_TIPODOM"/>
+  <table-filter match-name="TEP_DOMICILIO"/>
+  <table-filter match-name="TEC_OPCREQUISITO"/>
+  <table-filter match-name="TEC_STATUS_CODIGOSEG"/>
+  <table-filter match-name="SGC_TIPOSUSUARIO"/>
+  <table-filter match-name="SGC_TIPOUSUARIOTRAMITES"/>
+  <table-filter match-name="TEC_ESTATUSTRAMITE"/>
+  <table-filter match-name="TET_PREREQUISITOS"/>
+  <table-filter match-name="TEC_ESTATUS_VEHI"/>
+  <table-filter match-name="RGC_PAIS"/>
+  <table-filter match-name="IT_SERVICIOS"/>
+  <table-filter match-name="RGC_TIPOASENTA"/>
+  <table-filter match-name="RGC_ASENTAMIENTO"/>
+  <table-filter match-name="TEP_VEHICULO"/>
+  <table-filter match-name="RGC_MUNICIPIO"/>
+  <table-filter match-name="SGC_ADSCRIPCION"/>
+  <table-filter match-name="IC_PERIODOS"/>
+</hibernate-reverse-engineering>
